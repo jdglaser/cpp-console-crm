@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\jarre\source\repos\jdglaser\cpp-console-crm\headers\cust_table.hpp(84,14): warning C4018: '>=': signed/unsigned mismatch
+  CPP CRM.vcxproj -> C:\Users\jarre\source\repos\jdglaser\cpp-console-crm\Debug\CPP CRM.exe

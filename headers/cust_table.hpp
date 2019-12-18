@@ -10,8 +10,17 @@ Member function definitions for cust_table class
 #include "cust_table.h"
 
 // Function to get max id in customer table
+//int cust_table::get_max_id() {
+    //return hashtable.end()->first;
+//}
 int cust_table::get_max_id() {
-    return hashtable.end()->first;
+    int max_id = 0;
+    for (auto it = hashtable.begin(); it != hashtable.end(); ++it) {
+        if (it->second.id > max_id) {
+            max_id = it->second.id;
+        }
+    }
+    return max_id;
 }
 
 // Print the customer table in a neatly formatted way

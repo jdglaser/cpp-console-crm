@@ -4,6 +4,7 @@ Member function definitions of customer class
 */
 
 #include "customer.h"
+#include <string>
 
 // Function to format date to YYYY-MM-DD
 std::string customer::format_date()
