@@ -3,11 +3,11 @@
 
 # Include these files
 !.gitignore
-*.csv
-*.cpp
-*.hpp
-*.h
-*.exe
-*.md
-*.png
-*.pdf
+!*.csv
+!*.cpp
+!*.hpp
+!*.h
+!*.exe
+!*.md
+!*.png
+!*.pdf
