@@ -11,3 +11,5 @@
 !*.md
 !*.png
 !*.pdf
+!*/headers
+!*/sample_run_screenshots
