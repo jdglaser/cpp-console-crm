@@ -1,2 +1,11 @@
-*.VC.opendb
-*.opendb
+# Ignore all files
+*
+
+# Include these files
+!.gitignore
+*.csv
+*.cpp
+*.hpp
+*.h
+*.exe
+*.md
